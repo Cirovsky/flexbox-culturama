@@ -35,19 +35,17 @@
     justify-content: center;
 }
 
+
 /* agenda: */
 .agenda__lista{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
 }
-
-
 .agenda__item{
     flex-grow: 1;
 }
-
 /* rodapé */
 .rodape{
     display: flex;
@@ -105,7 +103,7 @@
     .menu__item:nth-child(5){
         order: 2;
     }
-    .agenda__botao{
-        flex-shrink: 0;
+    .agenda__item{
+        min-width: 30%;
     }
 }
